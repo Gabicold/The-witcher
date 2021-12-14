@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;700&display=swap');
+*{
+    font-family: "Montserrat";
+}
+.container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logo{
+    align-items: center;
+    display:flex;
+}
+h1{
+    margin-left: 5vw;
+    font-size: 20px;
+    color:white;
+    font-weight: lighter;
+}
+img{
+    margin-left:150px;
+}
+
+ul{
+    margin-right: 100px;
+    list-style: none;
+    
+}
+li{
+    font-size: 20px;
+    display:inline;
+    margin: 10px;
+    color:white;
+    cursor:pointer;
+}
+body{
+    height: 100vh;
+    background-image:url("/midia/Fundo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+li:hover{
+    font-weight: bold;
+}
+main{
+    height: 95vh;
+    background-image: url("midia/geralt.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:bottom;
+    
+}
+.bruxo{
+    display: flex;
+    position:relative;
+    left: 30vw;
+}
+.geralt{
+    justify-content: center;
+    width: 40vw;
+}
+.container-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    
+    
+}
+.img_main1{
+    margin-left: 37vw;
+    margin-top: 20vw;
+}
+.img_main2{
+    margin-left: 37vw;
+    margin-top: 2vw;
+}
